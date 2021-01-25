@@ -8,11 +8,12 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        textView.text = "Kirill Iakovlev\n\nkirill@gmail.com\n\n0499999555"
     }
     
 
